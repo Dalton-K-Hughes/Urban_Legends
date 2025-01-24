@@ -26,10 +26,15 @@ header {
 
 header.shrink {
     height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    position: relative;
 }
 
 .banner-content {
     max-width: 800px;
+    transition: opacity 0.3s ease;
 }
 
 main {
